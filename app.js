@@ -14,7 +14,7 @@ const fetchData = require('./modules/fetchData');
 
 // Root Route
 app.get('/', (req, res)=>{
-    res.render('home.ejs');
+    res.render('home');
 });
 
 // Route to Fetch Youtube Playlist 
